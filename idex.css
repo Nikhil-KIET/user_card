@@ -1,0 +1,39 @@
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.cont{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid grey;
+    width: 500px;
+    /* height: 300px; */
+    
+
+}
+.flx{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+h1{
+    text-align: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+
+}
+p{
+    font-weight: bolder;
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
